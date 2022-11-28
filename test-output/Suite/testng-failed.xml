@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.Amazon.TestClass.TC03_VerifyLanguageSelectorNot">
+        <methods>
+          <include name="VerifyLanguageSelect"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Amazon.TestClass.TC03_VerifyLanguageSelectorNot -->
+      <class name="com.Amazon.TestClass.TC02_verifyLogoutFunctionality">
+        <methods>
+          <include name="VerifyLogotFunctionality"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Amazon.TestClass.TC02_verifyLogoutFunctionality -->
+      <class name="com.Amazon.TestClass.TC01Verifyloginfunctionality">
+        <methods>
+          <include name="setup"/>
+          <include name="VerifyLoginFunctionality"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Amazon.TestClass.TC01Verifyloginfunctionality -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
